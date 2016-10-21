@@ -1,0 +1,56 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>iSorry</title>
+
+    <!--JavaScript-->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquerymobile.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="css/jquerymobile.css">
+  <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="/iSorry/images/favicon.ico" />
+
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+
+
+
+    <section id="iSorry" class="header_default footer_default" data-role="page" data-title="iSorry">
+        <header data-theme="b" data-role="header" data-position="fixed"><h1>iSorry</h1></header>
+        <img src="images/viewsourcelogo.png" alt="View Source Logo">
+
+        Who needs to apologize? <select id="gender" data-role="flipswitch">
+            <option value="girl">Girl</option>
+            <option value="boy">Boy</option>
+        </select>
+        <button id="submit">iSorry</button>
+        <footer data-theme="b" data-role="footer" data-position="fixed"><nav data-role="navbar"><ul><li><a href="#mydialog" class="ui-btn ui-icon-info ui-btn-icon-top">Info</a></li></ul></nav></footer>
+
+    </section>
+
+
+
+
+    <section id="mydialog" data-role="dialog">
+        <header data-role="header"><h1>More Info</h1></header>
+        <div data-role="content">
+            <h1>About iSorry</h1>
+            <p>Is your sigificant other not saying "I'm sorry"? For support, please email <a href="mailto:info@theironsidecg.com">info@theironsidecg.com</a></p>
+        </div><!-- content -->
+    </section><!-- dialog -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
